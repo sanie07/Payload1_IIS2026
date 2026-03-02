@@ -1,0 +1,10 @@
+MCU: SAMD21
+Se necesita comunicación con los otros módulos
+	- Transmisor RF: UART
+	- Debugging: USB
+	- GPS: I2C o UART
+	- IMU: I2C o SPI
+
+IMU: MPU-9250
+Transmisor RF: DRA818
+GPS: MAX-M10S
