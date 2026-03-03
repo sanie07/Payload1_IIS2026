@@ -8,3 +8,6 @@ Se necesita comunicación con los otros módulos
 IMU: MPU-9250
 Transmisor RF: DRA818
 GPS: MAX-M10S
+
+Ferrite bead: https://www.mouser.com/ProductDetail/Murata-Electronics/BLM18PG471SN1D?qs=EYzdjubb4S%2FN1Ip39GrHyg%3D%3D
+
