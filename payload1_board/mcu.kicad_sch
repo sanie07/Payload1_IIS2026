@@ -2903,7 +2903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TQFP48_7x7MC_MCH"
+		(property "Footprint" ""
 			(at 157.48 60.96 0)
 			(effects
 				(font

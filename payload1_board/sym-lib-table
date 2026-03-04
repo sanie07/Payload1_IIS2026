@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "SAMD21G18A-AF")(type "KiCad")(uri "${KIPRJMOD}/Assets/ATSAMD21G18A-AF/2026-03-02_22-32-07.kicad_sym")(options "")(descr ""))
-  (lib (name "Crystal_32.768kHz")(type "KiCad")(uri "${KIPRJMOD}/Assets/Crytal_32.768kHz/2026-03-03_04-38-44.kicad_sym")(options "")(descr ""))
 )
