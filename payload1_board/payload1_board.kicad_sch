@@ -5,6 +5,88 @@
 	(uuid "ea597178-b44d-4db9-826c-8f86e8d231f0")
 	(paper "A4")
 	(lib_symbols)
+	(text_box "GPS: MAX-M10S"
+		(exclude_from_sim no)
+		(at 135.89 55.88 0)
+		(size 33.02 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b2ed945d-0119-4c7d-86c7-72bf6afb9a3a")
+	)
+	(text_box "IMU: acelerometro, magnetometro y giroscopio"
+		(exclude_from_sim no)
+		(at 186.69 55.88 0)
+		(size 35.56 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e32ce7c3-841a-42cd-ba61-cae62d2739c5")
+	)
+	(sheet
+		(at 185.42 31.75)
+		(size 39.37 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a5868df-6803-4923-b917-750caae40df4")
+		(property "Sheetname" "Sensores"
+			(at 185.42 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensores.kicad_sch"
+			(at 185.42 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "payload1_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 135.89 31.75)
 		(size 34.29 21.59)

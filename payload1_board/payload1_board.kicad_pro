@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pcb_comms_board.kicad_pro",
+    "filename": "payload1_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -625,6 +625,10 @@
     [
       "9ced98fe-3695-442f-a613-f1ea774ec3ca",
       "GPS"
+    ],
+    [
+      "5a5868df-6803-4923-b917-750caae40df4",
+      "Sensores"
     ]
   ],
   "text_variables": {}
