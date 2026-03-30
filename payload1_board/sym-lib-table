@@ -8,4 +8,5 @@
   (lib (name "2024-08-14_17-14-28")(type "KiCad")(uri "${KIPRJMOD}/Assets/LTC4361HTS8_2_TRMPBF/2024-08-14_17-14-28.kicad_sym")(options "")(descr ""))
   (lib (name "LTST-C193KRKT-2A")(type "KiCad")(uri "${KIPRJMOD}/Assets/LTST-C193KRKT-2A/LTST-C193KRKT-2A.kicad_sym")(options "")(descr ""))
   (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/Assets/MMC5983MA/MMC5983MA.kicad_sym")(options "")(descr ""))
+  (lib (name "SSM6K403TU_LF")(type "KiCad")(uri "${KIPRJMOD}/Assets/SSM6K403TU_LF/SSM6K403TU_LF.kicad_sym")(options "")(descr ""))
 )

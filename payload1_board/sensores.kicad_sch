@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 33.02 10.16 0)
+			(property "Reference" "U3"
+				(at 33.02 10.414 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -21,7 +21,7 @@
 				)
 			)
 			(property "Value" "AIS328DQTR"
-				(at 33.02 7.62 0)
+				(at 33.02 7.874 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -222,24 +222,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 0 -15.24 0)
 					(length 7.62)
@@ -251,60 +233,6 @@
 						)
 					)
 					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -20.32 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -22.86 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -341,24 +269,6 @@
 						)
 					)
 					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 66.04 0 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -528,24 +438,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 66.04 -25.4 180)
-					(length 7.62)
-					(name "SDO/SA0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 66.04 -27.94 180)
 					(length 7.62)
@@ -575,6 +467,116 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AIS328DQTR_1_1"
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 66.04 0 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 66.04 -25.4 180)
+					(length 7.62)
+					(name "SDO/SA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -855,8 +857,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 30.48 10.16 0)
+			(property "Reference" "U5"
+				(at 30.48 9.652 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -864,7 +866,7 @@
 				)
 			)
 			(property "Value" "I3G4250DTR"
-				(at 30.48 7.62 0)
+				(at 30.48 7.112 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1173,7 +1175,9 @@
 						)
 					)
 				)
-				(pin power_out line
+			)
+			(symbol "I3G4250DTR_1_1"
+				(pin passive line
 					(at 60.96 -7.62 180)
 					(length 7.62)
 					(name "GND"
@@ -1191,7 +1195,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 60.96 -10.16 180)
 					(length 7.62)
 					(name "RES"
@@ -1209,7 +1213,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 60.96 -12.7 180)
 					(length 7.62)
 					(name "RES"
@@ -1227,7 +1231,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 60.96 -15.24 180)
 					(length 7.62)
 					(name "RES"
@@ -1245,7 +1249,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 60.96 -17.78 180)
 					(length 7.62)
 					(name "RES"
@@ -1273,8 +1277,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 35.56 10.16 0)
+			(property "Reference" "U4"
+				(at 35.56 10.414 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1282,7 +1286,7 @@
 				)
 			)
 			(property "Value" "MMC5983MA"
-				(at 35.56 7.62 0)
+				(at 35.56 7.874 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1627,7 +1631,9 @@
 						)
 					)
 				)
-				(pin power_out line
+			)
+			(symbol "MMC5983MA_1_1"
+				(pin passive line
 					(at 71.12 -12.7 180)
 					(length 7.62)
 					(name "GND"
@@ -1645,7 +1651,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 71.12 -15.24 180)
 					(length 7.62)
 					(name "CAP"
@@ -1663,7 +1669,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 71.12 -17.78 180)
 					(length 7.62)
 					(name "GND"
@@ -1785,6 +1791,39 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "ACCEL\n"
+		(exclude_from_sim no)
+		(at 90.424 28.702 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(color 0 21 255 1)
+			)
+		)
+		(uuid "925b4c7b-b575-4fed-a2ef-f6a4c8037084")
+	)
+	(text "GYRO\n"
+		(exclude_from_sim no)
+		(at 91.44 122.682 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(color 0 21 255 1)
+			)
+		)
+		(uuid "b58d7161-4c99-4d2e-ac55-d97edddb4a0e")
+	)
+	(text "MAG"
+		(exclude_from_sim no)
+		(at 214.122 74.676 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(color 0 21 255 1)
+			)
+		)
+		(uuid "cd260a1e-6508-4789-b879-0da3d4a330a0")
 	)
 	(junction
 		(at 57.15 63.754)
@@ -2867,39 +2906,6 @@
 			(type default)
 		)
 		(uuid "fd194964-e41b-45de-a347-53e85c647d6c")
-	)
-	(label "ACCEL"
-		(at 84.074 29.972 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 18 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f7a36f5-3917-4adf-a4f9-ee3ca48fbbfe")
-	)
-	(label "GYRO"
-		(at 71.628 125.984 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 0 20 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b54df92-e1c6-4c93-baf0-249bee798293")
-	)
-	(label "MAG"
-		(at 207.772 75.946 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 18 0 255 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e773e60-1c13-4791-b611-c4393ee73ae8")
 	)
 	(global_label "OCP_TO_ACCEL"
 		(shape input)
