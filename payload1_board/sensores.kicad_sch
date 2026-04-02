@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "1b842456-872b-47c5-bcee-f2136dce82d5")
 	(paper "A4")
+	(title_block
+		(title "Payload 2nd PCB")
+		(company "Introduccion a la ingenieria satelital")
+		(comment 1 "Sanie Peralta, Alejandro Campo")
+	)
 	(lib_symbols
 		(symbol "AS328DQTR:AIS328DQTR"
 			(pin_names

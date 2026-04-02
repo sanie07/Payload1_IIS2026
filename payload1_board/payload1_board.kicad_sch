@@ -5,9 +5,10 @@
 	(uuid "ea597178-b44d-4db9-826c-8f86e8d231f0")
 	(paper "A4")
 	(title_block
-		(title "Payload 2nd stage")
+		(title "Payload 2nd PCB")
 		(date "01/04/2026")
-		(company "Sanie Peralta, Alejandro Campo")
+		(company "Introduccion a la ingenieria satelital")
+		(comment 1 "Sanie Peralta, Alejandro Campo")
 	)
 	(lib_symbols)
 	(sheet
